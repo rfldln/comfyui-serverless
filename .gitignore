@@ -1,0 +1,30 @@
+# Virtual environment (8.8GB we want to exclude)
+venv/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Logs and temporary files
+*.log
+*.pid
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+
+# Models (use network storage)
+ComfyUI/models/**/*.safetensors
+ComfyUI/models/**/*.ckpt
+ComfyUI/models/**/*.bin
+ComfyUI/models/**/*.pth
+ComfyUI/models/**/*.pt
+ComfyUI/temp/
+ComfyUI/output/
